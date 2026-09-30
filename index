@@ -21,7 +21,7 @@
         html, body {
             width: 100%;
             height: 100%;
-            overflow: hidden; /* ป้องกันการเกิดแถบ Scrollbar ซ้อนกับตัวเว็บใน iframe */
+            overflow: hidden; /* ป้องกัน scrollbar ซ้อน */
             background-color: #ffffff;
         }
 
@@ -31,7 +31,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            height: 100dvh; /* ปรับขนาดตามหน้าจอจริงบนมือถือ (รองรับแถบ Address bar ยืด/หด) */
+            height: 100dvh; /* ปรับขนาดพอดีหน้าจอมือถือและคอมพิวเตอร์ */
         }
 
         iframe {
