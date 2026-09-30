@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3597/3597742.png">
+
+    <title>รวมลิงค์ระบบอิเล็กทรอนิกส์</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* ป้องกันการเกิดแถบ Scrollbar ซ้อนกับตัวเว็บใน iframe */
+            background-color: #ffffff;
+        }
+
+        .iframe-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            height: 100dvh; /* ปรับขนาดตามหน้าจอจริงบนมือถือ (รองรับแถบ Address bar ยืด/หด) */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="iframe-container">
+        <iframe 
+            src="https://script.google.com/macros/s/AKfycbzm4f2E-Myh9Y3Lsj71UWBP-6Yt2QPth5jJRWXB-TwxTdBAd9GPMK5lXfT3iUZgAxVO/exec"
+            allowfullscreen="true">
+        </iframe>
+    </div>
+
+</body>
+</html>
